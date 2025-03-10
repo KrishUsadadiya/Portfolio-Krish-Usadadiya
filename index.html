@@ -41,7 +41,8 @@
 
             <a id="contact"
                 class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gap-500 rounded-full ml-4 cursor-pointer  font-Ovo">Contect
-                <img src="./images/arrow-icon.png" class="w-3">
+                <img src="./images/arrow-icon.png" class="w-3 dark:hidden">
+                <img src="./images/arrow-icon-dark.png" class="w-3 hidden dark:block">
             </a>
 
             <button class="block md:hidden ml-3" onclick="openMenu()">
@@ -76,16 +77,17 @@
         <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3">Hi! I am Krish Usadadiya <img
                 src="./images/hand-icon.png" alt="hand" class="w-6"></h3>
         <h2 class="text-3xl sm:text-6xl lg:text-[45px]">Front-End Web Developer</h2>
-        <p class="max-w-2xl mx-auto font-Ovo"> A Front-End Developer is responsible for designing and implementing the user</p>
+        <p class="max-w-2xl mx-auto font-Ovo"> A Front-End Developer is responsible for designing and implementing the
+            user</p>
 
         <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a href="#contact"
-                class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2">Contact
+                class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent">Contact
                 Me <img src="./images/right-arrow-white.png" alt="right-arrow" class="w-4"></a>
 
             <a href="file:///C:/Users/Dell/Desktop/krish-usadadiya.pdf" download
-                class="px-10 py-3 border rounded-full border-gray-500 bg-white flex items-center gap-2">My Resume<img
-                    src="./images/download-icon.png" alt="download" class="w-4"></a>
+                class="px-10 py-3 border rounded-full border-gray-500 bg-white flex items-center gap-2 dark:text-black">My
+                Resume<img src="./images/download-icon.png" alt="download" class="w-4"></a>
         </div>
 
     </div>
@@ -118,29 +120,35 @@
                     Websites</p>
 
                 <ul class="grid grid-cols-1 sm:grid-cols-auto gap-6 max-w-2xl">
-                    <li
-                        class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-                        <img src="./images/code-icon.png" alt="code" class="w-7 mt-3">
-                        <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
-                        <p class="text-gray-600 text-sm">HTML, CSS, JavaScript, React js</p>
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]
+                        dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50
+                        ">
+                        <img src="./images/code-icon.png" alt="code" class="w-7 mt-3 dark:hidden">
+                        <img src="./images/code-icon-dark.png" alt="code" class="w-7 mt-3 hidden dark:block">
+                        <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Languages</h3>
+                        <p class="text-gray-600 text-sm dark:text-white">HTML, CSS, JavaScript, React js</p>
                     </li>
 
-                    <li
-                        class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-                        <img src="./images/edu-icon.png" alt="code" class="w-7 mt-3">
-                        <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
-                        <p class="text-gray-600 text-sm">Diploma In Computer Eng.</p>
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]
+                        dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50
+                        ">
+                        <img src="./images/edu-icon.png" alt="code" class="w-7 mt-3 dark:hidden">
+                        <img src="./images/edu-icon-dark.png" alt="code" class="w-7 mt-3 hidden dark:block">
+                        <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Languages</h3>
+                        <p class="text-gray-600 text-sm dark:text-white">Diploma In Computer Eng.</p>
                     </li>
 
-                    <li
-                        class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-                        <img src="./images/project-icon.png" alt="code" class="w-7 mt-3">
-                        <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
-                        <p class="text-gray-600 text-sm">Build more than 5 Projects</p>
+                    <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]
+                         dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50
+                        ">
+                        <img src="./images/project-icon.png" alt="code" class="w-7 mt-3 dark:hidden">
+                        <img src="./images/project-icon-dark.png" alt="code" class="w-7 mt-3 hidden dark:block">
+                        <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Languages</h3>
+                        <p class="text-gray-600 text-sm dark:text-white">Build more than 5 Projects</p>
                     </li>
                 </ul>
 
-                <h4 class="my-6 text-gray-700 font-Ovo">Tools i use</h4>
+                <h4 class="my-6 text-gray-700 font-Ovo dark:text-white">Tools i use</h4>
 
                 <ul class="flex items-center gap-3 sm:gap-5">
                     <li
@@ -171,7 +179,7 @@
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12">Welcome to my web development portfolio! Explore a
             collection of projects showcasing my expertise in front-end development.</p>
 
-        <div class="grid grid-cols-auto my-10 gap-5">
+        <div class="grid grid-cols-auto my-10 gap-5 dark:text-black">
             <div
                 class="aspect-square bg-[url('./images/work-1.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
@@ -238,9 +246,12 @@
         </div>
 
         <a href="https://github.com/KrishUsadadiya"
-            class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500">Show
+            class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500
+            dark:text-white dark:border-white dark:hover:bg-[#2a004a]
+            ">Show
             More
-            <img src="./images/right-arrow-bold.png" alt="right-arrow-bold" class="w-4">
+            <img src="./images/right-arrow-bold.png" alt="right-arrow-bold" class="w-4 dark:hidden">
+            <img src="./images/right-arrow-bold-dark.png" alt="right-arrow-bold" class="w-4 hidden dark:block">
         </a>
 
     </div>
@@ -248,24 +259,30 @@
 
     <!-- -------------- Contect Me -------------- -->
     <div id="contact"
-        class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[lenght:90%_auto] bg-center">
+        class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[lenght:90%_auto] bg-center
+        dark:bg-none
+        ">
         <h4 class="text-center mb-2 text-lg">Contect Me</h4>
         <h2 class="text-center text-5xl font-Ovo">Get In Touch</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12">I'd love to hear from you! If you have any question,
             comments on feedback, please use the form below.</p>
 
-        <form class="max-w-2xl mx-auto">
+        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl mx-auto">
+
+            <input type="hidden" name="access_key" value="97246195-57f1-4641-b90d-8294c1ce9eeb">
+
             <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
                 <input type="text" placeholder="Enter your Name"
-                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white">
+                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white
+                    dark:bg-darkHover/30 dark:border-white/90" required name="name">
 
                 <input type="email" placeholder="Enter your Email"
-                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white">
+                    class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90" required name="email">
             </div>
             <textarea rows="6" placeholder="Enter your Message"
-                class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"></textarea>
+                class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90" required name="message"></textarea>
             <button
-                class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500">Submit
+                class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover">Submit
                 Now <img src="./images/right-arrow-white.png" alt="right-arrow-white" class="w-4"></button>
         </form>
 
